@@ -1,0 +1,52 @@
+
+
+
+.Watch-Now p{
+  font-size: 20px;
+  position: absolute; top: 455px; left: 70px;
+  text-indent: 40px;
+  width: 150px;
+  color: white;
+  font-family:Arial, Helvetica, sans-serif; 
+
+  border: 3px solid #942bb1; /* Solid red border */
+  border-radius: 50px; /* Rounded corners with 10px radius */
+  padding: 10px;
+  background-color: #2d283e; 
+}
+
+.Watch-Now p:hover{
+  background-color: #4f466c;
+  font-weight: bold;
+  transform: scale(1.15);
+  cursor: pointer;
+}
+
+
+.play-icon img{
+  width: 50px;
+  position: absolute; top: 475px; left: 73px;
+}
+
+.diamond-icon img{
+  width: 15px;
+  position: absolute; top: 300px; left: 73px;
+}
+
+
+html {
+  font-size: 16px; /* Base size for scaling */
+}
+
+@media (min-width: 768px) {
+  html {
+      font-size: 18px; /* Adjust for larger screens */
+  }
+}
+
+@media (min-width: 1024px) {
+  html {
+      font-size: 20px; /* Further adjustment for very large screens */
+  }
+}
+
